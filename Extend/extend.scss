@@ -1,0 +1,15 @@
+.first{
+	width: 200px;
+	padding: 20px;
+	background-color: #74b9ff;
+}
+
+.second{
+	@extend .first;
+	background-color: #6c5ce7;
+}
+
+.third{
+	@extend .first;
+	background-color:#fd79a8;
+}
