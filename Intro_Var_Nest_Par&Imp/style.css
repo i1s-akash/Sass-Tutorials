@@ -1,0 +1,8 @@
+nav{background-color:#fff000;border:1px ridge #ff0}nav ul{list-style:none;display:flex;padding:1rem}nav ul li a{padding:1rem;text-decoration:none}nav ul li a:hover{background-color:blue}html{font-size:16px}*,*::after,*::before{margin:0;padding:0;box-sizing:border-box}.div_h1{background-color:blue;padding:2rem;color:white;border:1px ridge #ff0}section{display:flex}section .left{width:80%;padding:2rem;font-size:1.2rem}section .left h2{margin:0.5rem 0}section .left p{margin:0.5rem 0}section .right{width:20%;padding:2rem;background-color:#228899}footer{display:flex;justify-content:center;align-content:center;background-color:#451233;padding:5.2rem;color:white}footer span:hover{background-color:blue}p::selection{background-color:blue}
+
+/*
+1> Sass Introduction
+2> Sass Variables
+3> Sass Nesting
+4> Sass Partials & Imports
+*/
