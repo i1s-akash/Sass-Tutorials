@@ -1,0 +1,19 @@
+nav {	
+	background-color: #fff000;	
+	border: 1px ridge $border-color;
+
+	ul{
+		list-style: none;	
+		display: flex;
+		padding: 1rem;
+
+		li a{
+			padding: 1rem;
+			text-decoration: none;
+
+				&:hover{
+					background-color: $main-color;
+				}			
+		}		
+	}	
+}
