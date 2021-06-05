@@ -1,0 +1,36 @@
+@mixin bd-radius($value: 20px){
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
+}
+
+@mixin box-shadow($top, $left, $blur, $color){
+	-webkit-box-shadow: $top $left $blur $color;
+	-moz-box-shadow: $top $left $blur $color;
+	box-shadow: $top $left $blur $color;
+}
+
+.first{
+	width: 450px;
+	padding: 20px;
+	background-color: #0984e3;
+	@include bd-radius();
+	@include box-shadow(2px, 4px, 10px, #252262);
+}
+
+.second{
+	width: 500px;
+	padding: 20px;	
+	background-color: #a29bfe;
+	@include bd-radius(10px);
+	@include box-shadow(2px, 4px, 10px, #252262);
+
+}
+
+.third{
+	width: 550px;
+	padding: 20px;
+	background-color: #55efc4;
+	@include bd-radius(5px);
+	@include box-shadow(2px, 4px, 10px, #252262);
+}

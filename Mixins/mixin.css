@@ -1,0 +1,5 @@
+.first{width:450px;padding:20px;background-color:#0984e3;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;-webkit-box-shadow:2px 4px 10px #252262;-moz-box-shadow:2px 4px 10px #252262;box-shadow:2px 4px 10px #252262}.second{width:500px;padding:20px;background-color:#a29bfe;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:2px 4px 10px #252262;-moz-box-shadow:2px 4px 10px #252262;box-shadow:2px 4px 10px #252262}.third{width:550px;padding:20px;background-color:#55efc4;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:2px 4px 10px #252262;-moz-box-shadow:2px 4px 10px #252262;box-shadow:2px 4px 10px #252262}
+/*
+1> Mixin, dfault value & different values
+2> 
+*/
